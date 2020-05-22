@@ -8,7 +8,9 @@ If you want to search for rentals in another place just go to the site and copy 
 
 Settings are not uploaded but the relevant options are shown next:
 
-These are the middlewares used in this project, Splash is not needed for this specific project, it was used to load another spider with heavy **JavaScript**.
+These are the middlewares used in this project, Scrapy-Splash is not needed for this specific project since it was used to load another spider with heavy **JavaScript**.
+
+
 ```
 DOWNLOADER_MIDDLEWARES = {
     #'WebScrpy.middlewares.WebscrpyDownloaderMiddleware': 543,
