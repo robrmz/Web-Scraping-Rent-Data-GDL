@@ -1,11 +1,14 @@
 # Web-Scraping-Rent-Data-GDL
 This program scrapes data out of "VivaAnuncios" to show rent prices in Guadalajara (Mexico) but it works for any other place within Viva Anuncio's site.
 
+You can run the code in the cmd with (note you will need to install a few libraries to be able to execute it)
+```scrapy crawl VivaAnuncios -o FileName.YourExtension(JSON,CSV,etc.)```
+
 If you want to search for rentals in another place just go to the site and copy the address given for it and replace start_urls
 
 Settings are not uploaded but the relevant options are shown next:
 
-These are the middlewares used in this project, Splash is not needed for this specific project, it was used to load another spider with heavy JavaScript.
+These are the middlewares used in this project, Splash is not needed for this specific project, it was used to load another spider with heavy **JavaScript**.
 ```
 DOWNLOADER_MIDDLEWARES = {
     #'WebScrpy.middlewares.WebscrpyDownloaderMiddleware': 543,
