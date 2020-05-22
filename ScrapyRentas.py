@@ -6,7 +6,6 @@ import requests
 
 class VivaSpider(CrawlSpider):
     name = 'VivaAnuncios'
-    item_count = 0
     allowed_domain = ['www.vivanuncios.com.mx']
     start_urls = ['https://www.vivanuncios.com.mx/s-departamentos-en-renta/guadalajara/v1c1300l14822p1']
     
